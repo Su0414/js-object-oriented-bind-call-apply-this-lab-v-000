@@ -1,7 +1,7 @@
 //Your code here
 
 function justInvoke(fn){
-  returnsThisAndArgs();
+  fn();
 }
 
 function setThisWithCall(fn, thisValue, arg){
