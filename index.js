@@ -1,8 +1,7 @@
 //Your code here
-let returnsThisAndArgs;
 
 function justInvoke(fn){
-
+  returnsThisAndArgs();
 }
 
 function setThisWithCall(fn, thisValue, arg){
